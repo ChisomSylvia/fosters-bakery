@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <title>Foster's Bakery</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav-menu">
+      <img src="images/logo.png" alt="logo" width="64" height="64">
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <p class="nav-btn">
+        <button class="btn1">Log In</button>
+        <button type="button" class="btn2">Sign Up</button>
+      </p>
+    </nav>
+  </header>
+
+  <main>
+    <article class="top-container">
+      <section class="left-content">
+        <h1>Welcome to Foster's Bakery</h1>
+        <p>
+          We have the best pastries you'll ever enjoy.<br> Exquisite with a burst of flavour and class is our ethos.<br>Take our word for it, order now.
+        </p>
+        <button type="button">Explore Menu</button>
+      </section>
+      <section class="right-content">
+        <img src="images/header-img.png" alt="Foster's Pastries" width="537" height="360">
+      </section>
+    </article>
+
+    <article>
+      <h2>Favourites</h2>
+      <div class="bottom-container">
+        <section class="card1">
+          <img src="images/cake2.png" alt="cake" width="304" height="188" class="header-img">
+          <div class="title-row">
+            <h3>Cake</h3>
+            <img src="images/icons8-heart-50.png" alt="heart-icon">
+          </div>
+          <p class="row-btn">
+            <button class="gold-btn">chocolate</button>
+            <button class="red-btn">red velvet</button>
+            <button class="blue-btn">vanilla</button>
+          </p>
+          <div class="mid-row">
+            <p> &#8358;8000</p>
+            <p>
+              <button onclick="subtract1()">-</button>
+              <span id="quantity1">1</span>
+              <button onclick="add1()">+</button>
+            </p>
+          </div>
+
+          <div>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star unchecked"></i>
+          </div>
+
+          <button class="order-btn">ORDER NOW</button>
+
+        </section>
+        <section class="card1">
+          <img src="images/cinnamon2.png" alt="cinnamon-rolls" width="304" height="178" class="header-img">
+          <div class="title-row">
+            <h3>Cinnamon Rolls</h3>
+            <img src="images/icons8-heart-50.png" alt="heart-icon">
+          </div>
+          <p class="row-btn">
+            <button class="gold-btn">chocolate</button>
+            <button class="red-btn">lemon</button>
+            <button class="blue-btn">vanilla</button>
+          </p>
+          <div class="mid-row">
+            <p> &#8358;4500</p>
+            <p>
+              <button onclick="subtract2()">-</button>
+              <span id="quantity2">1</span>
+              <button onclick="add2()">+</button>
+            </p>
+          </div>
+
+          <div>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star unchecked"></i>
+          </div>
+
+          <button class="order-btn">ORDER NOW</button>
+
+        </section>
+        <section class="card1">
+          <img src="images/muffins.png" alt="croissant" width="304" height="188" class="header-img">
+          <div class="title-row">
+            <h3>Croissant</h3>
+            <img src="images/icons8-heart-50.png" alt="heart-icon">
+          </div>
+          <p class="row-btn">
+            <button class="gold-btn">chocolate</button>
+            <button class="red-btn">wheat</button>
+            <button class="blue-btn">blueberry</button>
+          </p>
+          <div class="mid-row">
+            <p> &#8358;3800</p>
+            <p>
+              <button onclick="subtract3()">-</button>
+              <span id="quantity3">1</span>
+              <button onclick="add3()">+</button>
+            </p>
+          </div>
+
+          <div>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star unchecked"></i>
+          </div>
+
+          <button class="order-btn">ORDER NOW</button>
+
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+
+      <section class="footer-links">
+        <a href="#">Home</a>
+        <a href="#" class="pseudo">About Us</a>
+        <a href="#">Contact Us</a>
+      </section>
+  
+      <section class="footer-copy">
+        <p>&copy; Copyright Chisom Sylvia 2024</p>
+      </section>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
